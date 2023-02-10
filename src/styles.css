@@ -1,0 +1,42 @@
+.App,
+* {
+  font-family: "Courier New", Courier, monospace;
+  text-align: left;
+  background: gray;
+  color: antiquewhite;
+  font-weight: 600;
+}
+
+li {
+  cursor: pointer;
+  background: transparent;
+}
+
+.gridbox {
+  margin: auto;
+  max-width: 60vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  justify-items: start;
+}
+
+.gridlist {
+  margin: auto;
+  max-width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  justify-items: start;
+  border: 2px black solid;
+  gap: 1rem;
+}
+
+section {
+  width: 100%;
+  background: gold;
+}
